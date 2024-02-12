@@ -1,5 +1,4 @@
 name = "cfworkerdemo"
-type = "webpack"
 main = "src/index.js"
 compatibility_date = "2024-02-07"
 workers_dev = true
