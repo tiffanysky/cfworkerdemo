@@ -1,0 +1,10 @@
+name = "cfworkerdemo"
+type = "webpack"
+main = "src/index.js"
+compatibility_date = "2024-02-07"
+workers_dev = true
+
+[[r2_buckets]]
+binding = "country_buckets"
+bucket_name = "myr2-tvetest-bucket"
+preview_bucket_name = "worker-r2-dev"
