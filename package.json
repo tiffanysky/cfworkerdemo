@@ -1,5 +1,6 @@
 {
   "name": "cfworkerdemo",
+  "main": "src/index.js",
   "version": "0.0.0",
   "devDependencies": {
     "wrangler": "3.27.0"
