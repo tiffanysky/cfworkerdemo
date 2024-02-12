@@ -23,11 +23,17 @@ jobs:
         submodules: 'true'
 
     # Setup npm
-    - name: Setup NodeJS
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12'
+    # - name: Setup NodeJS
+    #   uses: actions/setup-node@v1
+    #   with:
+    #     node-version: '12'
 
+    - name: Setup NodeJS & NPM
+      uses: actions/setup-node@v3
+      with:
+         node-version: 'latest'
+         cache: 'npm'
+          
     # Deploy
     - name: Deploy via CloudFlare Workers
       env:
