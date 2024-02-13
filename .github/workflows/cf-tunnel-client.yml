@@ -5,13 +5,13 @@ on:
       - action.yml
       - scripts/**
       - shutdown/action.yml
-      - .github/workflows/cf-tunnel-client.yaml
+      - .github/workflows/cf-tunnel-client.yml
   pull_request:
     paths:
       - action.yml
       - scripts/**
       - shutdown/action.yml
-      - .github/workflows/cf-tunnel-client.yaml
+      - .github/workflows/cf-tunnel-client.yml
       
 jobs:
   test-ubuntu:
