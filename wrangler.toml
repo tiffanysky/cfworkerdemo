@@ -1,7 +1,24 @@
 name = "cfworkerdemo"
 main = "src/index.js"
 compatibility_date = "2024-02-07"
-workers_dev = true
+
+##
+## --------------------------------------------------------------
+## Global settings
+## --------------------------------------------------------------
+##
+
+workers_dev = false
+##
+## -------------
+## Dev Overrides
+## -------------
+##
+# [dev]
+# ip = "127.0.0.1"
+# port = 8080
+# local_protocol = "http"
+
 
 [[r2_buckets]]
 binding = "country_buckets"
